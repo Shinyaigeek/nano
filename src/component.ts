@@ -2,7 +2,7 @@ import { onNodeRemove } from './helpers'
 import { tick, _render } from './core'
 import { _state } from './state'
 
-export class Component<P extends Object = any, S = any> {
+export abstract class Component<P extends Object = any, S = any> {
   public props: P
   public id: string
   private _elements: HTMLElement[] = []
