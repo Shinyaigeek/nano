@@ -15,6 +15,9 @@ import { h, render, hydrate } from './core'
 import { renderSSR } from './ssr'
 export default { h, render, hydrate, renderSSR }
 
+// jsx-runtime
+export * from './jsx-runtime'
+
 // other
 export { jsx } from './jsx'
 export { hydrateLazy } from './lazy'

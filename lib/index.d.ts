@@ -13,6 +13,7 @@ declare const _default: {
     }) => string;
 };
 export default _default;
+export * from './jsx-runtime';
 export { jsx } from './jsx';
 export { hydrateLazy } from './lazy';
 export { nodeToString, task } from './helpers';
